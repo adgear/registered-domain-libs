@@ -1,0 +1,13 @@
+metadata:
+  name: registered-domain-libs
+  description: "C library that helps to convert an arbitrary domain name to the registered domain name"
+  labels:
+    jira-project: DEGA
+    jira-board: 189
+  links:
+    - url: https://github.com/adgear/registered-domain-libs/blob/master/README.txt
+      title: Component Documentation Page
+spec:
+  owner: cg-dsp-bidding-systems
+  type:  library
+  lifecycle: production
