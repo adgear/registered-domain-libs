@@ -25,6 +25,7 @@
 
 require_once("effectiveTLDs.inc.php");
 require_once("regDomain.inc.php");
+require_once("engine_check.php");
 
 if ($_SERVER["argc"]<2) {
 	print("test-regDomain.php <(fully-qualified-domain-name )+>\n");
