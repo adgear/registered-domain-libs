@@ -11,6 +11,8 @@
 
 header('Content-Type: text/html; charset=utf-8');
 
+require_once('PHP/engine_check.php');
+
 DEFINE('URL', 'http://mxr.mozilla.org/mozilla-central/source/netwerk/dns/effective_tld_names.dat?raw=1');
 
 $format = "php";
